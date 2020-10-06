@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.projekt_3.Activity_1"
+    android:background="#c3ecff">
+
+
+    <TextView
+        android:id="@+id/tvTytul_1"
+        android:text="Witaj w 1 oknie aplikacji!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:gravity="center" />
+
+
+    <TextView
+        android:id="@+id/tvImie"
+        android:text="Podaj imie: "
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#edc9eb"
+        android:background="#214380"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/etImie"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Imie"
+        android:background="#ffffff"
+        android:textColorHint="#a6a4a4"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvRokAkt"
+        android:text="Podaj rok: "
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#edc9eb"
+        android:background="#214380"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/etRokAkt"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rok "
+        android:inputType="number"
+        android:background="#ffffff"
+        android:textColorHint="#a6a4a4"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/tvRok"
+        android:text="Podaj rok urodzenia: "
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#edc9eb"
+        android:background="#214380"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/etRok"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rok urodzenia"
+        android:inputType="number"
+        android:background="#ffffff"
+        android:textColorHint="#a6a4a4"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvLata"
+        android:text="Masz ??? lat"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <Button
+        android:text="Przekaz dane do drugiego okna"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bDo2Okna"
+        android:background="#fffcbe"
+        android:textColor="#000000"
+        android:enabled="true" />
+
+
+</LinearLayout>

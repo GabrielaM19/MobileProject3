@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.projekt_3.Activity_2"
+    android:background="#ffdede">
+
+    <TextView
+        android:id="@+id/tvTytul_2"
+        android:text="Witaj w 2 oknie aplikacji!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/tvImie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="#203e99"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text='Witaj "imie"'
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tvRokAkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="#203e99"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Mamy rok : ???" />
+
+    <TextView
+        android:id="@+id/tvRok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="#203e99"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Urodziles/as sie w  : ??? roku" />
+
+    <TextView
+        android:id="@+id/tvLata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Masz ??? lat !" />
+
+
+    <Button
+        android:id="@+id/bDo1Okna"
+        android:text="Zwroc dane do 1 aktywnosci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ReturnResult"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="#affff4"
+        android:textColor="#000"/>
+
+</LinearLayout>
